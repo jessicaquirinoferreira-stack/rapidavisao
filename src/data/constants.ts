@@ -23,8 +23,8 @@ export const ASSETS = {
   onlyPaint: 'https://rapidavisao.com.br/somentepintura.jpeg',
   onlyHistory: 'https://rapidavisao.com.br/apenas-historico.jpeg',
   franchise: 'https://rapidavisao.com.br/melhorproposta.jpeg',
-  assistantAvatar: '/src/assets/images/atendente_virtual_avatar_1793749628749.jpg',
-  inspectorUniform: '/src/assets/images/vistoriador_jaleco_uniforme_1793750559842.jpg',
+  assistantAvatar: '/images/atendente_virtual_avatar_1793749628749.jpg',
+  inspectorUniform: '/images/vistoriador_jaleco_uniforme_1793750559842.jpg',
 };
 
 export const GOOGLE_CERTIFICATE = {
