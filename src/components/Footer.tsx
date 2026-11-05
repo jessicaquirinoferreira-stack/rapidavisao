@@ -13,21 +13,12 @@ export function Footer() {
           {/* Brand info */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <img
-                src={ASSETS.logo}
-                alt="Rápida Visão Vistoria Cautelar"
-                className="h-12 w-auto object-contain rounded bg-white p-0.5"
-                onError={(e) => {
-                  (e.target as HTMLElement).style.display = 'none';
-                }}
-              />
-              <div>
-                <span className="font-heading font-extrabold text-xl text-white tracking-tight">
-                  RÁPIDA VISÃO
-                </span>
-                <p className="text-xs font-semibold text-red-500 uppercase tracking-wider">
-                  Vistoria Cautelar Pelotas - RS
-                </p>
+              <div className="bg-white rounded-xl p-2 inline-block shadow-md border border-slate-700">
+                <img
+                  src={ASSETS.logo}
+                  alt="Rápida Visão Vistoria Cautelar"
+                  className="h-12 w-auto object-contain"
+                />
               </div>
             </div>
 

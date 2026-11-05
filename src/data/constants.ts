@@ -14,7 +14,7 @@ export const COMPANY = {
 };
 
 export const ASSETS = {
-  logo: 'https://rapidavisao.com.br/logotipo.jpeg',
+  logo: '/images/logo-rapida-visao.png',
   heroVideo: 'https://rapidavisao.com.br/hero-video.mp4',
   paintVideo: 'https://rapidavisao.com.br/analisedepintura.mp4',
   bestInspectors: 'https://rapidavisao.com.br/osmelhoresvistoriadores.jpeg',
@@ -24,7 +24,7 @@ export const ASSETS = {
   onlyHistory: 'https://rapidavisao.com.br/apenas-historico.jpeg',
   franchise: 'https://rapidavisao.com.br/melhorproposta.jpeg',
   assistantAvatar: '/images/atendente_virtual_avatar_1793749628749.jpg',
-  inspectorUniform: '/images/vistoriador_jaleco_uniforme_1793750559842.jpg',
+  inspectorUniform: '/images/vistoriador_jaleco_oficial.jpg',
 };
 
 export const GOOGLE_CERTIFICATE = {

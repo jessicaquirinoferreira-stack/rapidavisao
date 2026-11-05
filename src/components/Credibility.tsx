@@ -35,17 +35,17 @@ export function Credibility() {
               </div>
             </div>
 
-            {/* Sub-strip with official inspectors photo */}
+            {/* Sub-strip with official logo badge & team badge */}
             <div className="grid grid-cols-2 gap-3">
               <div className="rounded-xl overflow-hidden border border-slate-800 bg-slate-950/80 p-2 flex items-center gap-3">
                 <img
-                  src={ASSETS.bestInspectors}
-                  alt="Equipe de vistoriadores"
-                  className="w-14 h-14 object-cover rounded-lg shrink-0 border border-slate-700"
+                  src={ASSETS.logo}
+                  alt="Logo Oficial Rápida Visão"
+                  className="w-16 h-12 object-contain bg-white rounded-lg p-1 shrink-0 border border-slate-700"
                 />
                 <div className="text-[11px]">
-                  <p className="font-bold text-white">Equipe Certificada</p>
-                  <p className="text-slate-400">Os melhores do Brasil</p>
+                  <p className="font-bold text-white">Logo Oficial</p>
+                  <p className="text-slate-400">Jaleco & Unidade Pelotas</p>
                 </div>
               </div>
 

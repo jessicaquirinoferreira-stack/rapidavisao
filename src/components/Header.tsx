@@ -17,20 +17,8 @@ export function Header() {
             <img
               src={ASSETS.logo}
               alt="Rápida Visão Vistoria Cautelar"
-              className="h-12 w-auto object-contain rounded"
-              onError={(e) => {
-                // If remote logo fails, show stylized text brand
-                (e.target as HTMLElement).style.display = 'none';
-              }}
+              className="h-14 sm:h-16 w-auto object-contain transition-transform group-hover:scale-102"
             />
-            <div className="flex flex-col">
-              <span className="font-heading font-extrabold text-xl text-slate-900 tracking-tight leading-none group-hover:text-red-600 transition-colors">
-                RÁPIDA VISÃO
-              </span>
-              <span className="text-[11px] font-semibold text-red-600 tracking-wider uppercase mt-0.5">
-                Vistoria Cautelar
-              </span>
-            </div>
           </a>
 
           {/* Navigation Links */}
